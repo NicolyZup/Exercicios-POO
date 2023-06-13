@@ -1,4 +1,4 @@
-# Exercicios- Programação Orientada a Objeto
+# Exercícios- Programação Orientada a Objeto
 Repositório criado para lista de exercícios da aula de POO do curso de Java do projeto Catalisa.
 
 ## Exercícios propostos:
