@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
         Scanner entrada = new Scanner(System.in);
 
         System.out.println("Informe seu nome:");
@@ -33,7 +32,7 @@ public class Main {
         //método de envelhecer
         pessoa.envelhecer(2);
 
-        //método de crescer
+        //método de crescer, com valores fixos (da para deixar dinamico)
         if(pessoa.idade < 21){
           double centrimetros = 12.0 * 0.5  ;
           pessoa.crescer(centrimetros);

@@ -22,8 +22,6 @@ public class Main {
             retangulo.mudarComprimento(novoComprimentoInformado);
         }
 
-        System.out.println("O comprimento do retângulo é: "+retangulo.comprimento);
-
         System.out.println("Deseja alterar a largura do retângulo? sim ou não:");
         String informarLargura = entrada.next();
 
@@ -33,7 +31,8 @@ public class Main {
             retangulo.mudarLargura(novaLarguraInformado);
         }
 
-        System.out.println("A largura do retângulo é: "+retangulo.largura);
+        System.out.println("Veja como ficou as medidas do retângulo:");
+        retangulo.mostrarLados();
 
         System.out.println("Deseja calcular a área do retângulo? sim ou não:");
         String informarArea = entrada.next();
@@ -48,6 +47,5 @@ public class Main {
         if(informarPerimetro.equals("sim")){
             System.out.println("O perímetro do retângulo é: "+retangulo.calcularPerimetro());
         }
-
     }
 }

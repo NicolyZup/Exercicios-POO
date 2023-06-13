@@ -10,7 +10,6 @@ public class Contas {
         this.nome = nome;
         this.saldo = 0.0;
     }
-
     public void depositoConta(Double deposito){
         saldo+=deposito;
     }

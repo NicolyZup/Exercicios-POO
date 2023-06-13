@@ -1,7 +1,6 @@
 package retangulo;
 
 public class Retangulo {
-
     Double comprimento;
     Double largura;
 
@@ -19,8 +18,8 @@ public class Retangulo {
     }
 
     public void mostrarLados (){
-        System.out.println(comprimento);
-        System.out.println(largura);
+        System.out.println("Comprimento: "+comprimento);
+        System.out.println("Largura: "+largura);
     }
 
     public Double calcularArea(){

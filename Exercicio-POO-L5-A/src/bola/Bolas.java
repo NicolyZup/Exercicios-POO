@@ -1,7 +1,6 @@
 package bola;
 
 public class Bolas {
-
     Double circunferencia;
     String cor;
     String marca;
@@ -15,7 +14,6 @@ public class Bolas {
         this.material = material;
         this.velocidade =velocidade;
     }
-
     public String mostrarCor(){
         return cor;
     }

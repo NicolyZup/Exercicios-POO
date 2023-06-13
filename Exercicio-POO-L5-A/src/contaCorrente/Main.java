@@ -7,7 +7,7 @@ public class Main {
         Scanner entrada = new Scanner(System.in);
 
         System.out.println("Cadastre aqui sua conta corrente!");
-        System.out.println("------------------------------");
+        System.out.println("----------------------------------");
 
         System.out.println("Informe seu nome:");
         String nomeInformado = entrada.next();
